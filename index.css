@@ -1,0 +1,305 @@
+*{
+	margin:0;
+	padding:0;
+}
+.ruang , .ruang1{
+	position:relative;
+	height:80px;
+	width: max;
+}
+	.ruang1{
+		height:50px;
+	}
+.space{
+	list-style: none;
+	float: left;
+	font-family: Times New Roman;
+}
+.circle{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 1px solid green;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000;
+	overflow: hidden;
+}
+.from1 , .from2{
+	position: relative;
+	width: 20px;
+	height: 20px;
+}
+.font{
+	font-family: "Times New Rowman";
+	font-size: 20px;
+}
+	.font1{
+		font-family: Times New Rowman;
+	}
+	.font2{
+		text-transform: capitalize; 
+		font-family: Times New Rowman;
+	}
+.groupserver{
+	position: relative;
+	width: 664px;
+	height: 510px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.size{
+	position: relative;
+	width: 664px;
+	border-color: green;
+}
+.size1{
+	border-color: green;
+}
+.margin{
+	margin-bottom: 100px;
+}
+.induk{
+	position: relative;
+	height:600px;
+	width: 1300px;
+	border: 1px green solid;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.box{
+	float: left;
+}
+.box1,.box2{
+	position: relative;
+	height:200px;
+	width: 200px;
+	border: 1px green solid;
+	border-radius: 7px 7px 0px 0px;
+	margin-top: 30px;
+	margin-left: 30px;
+	overflow: hidden;
+}
+	div .box1 img{
+		width:200px;
+		height:200px;
+	} 
+.box2{
+	height:100px;
+	width: 200px;
+	background-color: green;
+	margin-top: 0px;
+	border-radius: 0px 0px 7px 7px;
+}
+.box3{
+	border: 1px green solid;
+	border-radius: 7px;
+	position: relative;
+	width:100%;
+	height: auto;
+	padding-bottom: 30px;
+	float: left;
+}
+.list{
+	list-style: none;
+	text-align: center;
+	font-family: "Times New Rowman";
+	font-size: 15px;
+	font-weight: bold;
+}
+.text1,.text2{
+	margin-left: auto;
+}
+.logodata{
+	height: 150px; 
+	width: 150px;
+}
+	.imgdata{
+		height: 150px; 
+		width: 150px;
+	}
+.dataart{
+	position: relative;
+	border-radius: 3px;
+	margin-top: 8%;  
+	height: 22%; 
+	width: 22%; 
+	margin-left:4%;
+}
+
+.datatrans{
+	position: relative;
+	border-radius: 3px;
+	margin-top: 3%;
+	margin-left:auto;
+	margin-right: auto;  
+	height: 22%; 
+	width: 22%; 
+}
+
+.datacenter{
+	position: relative;
+	margin-top: 3%;
+	text-align: center;
+	font-family: 'Times New Rowman';
+	font-size: 20px;
+	color:#0A564C;
+	font-weight: bold; 
+}
+
+.artadminimg{
+	overflow: hidden;	
+}
+	.artadminimg img{
+		transition: all 1.5s ease;
+	}
+	.artadminimg:hover img{
+		transform: scale(1.5);
+	}
+
+.carddata{
+	margin-top:8%;
+	width: 70%;  
+	border-width: 1px;	
+}
+	#namedata{
+		position: relative;
+		font-family: Times New Roman; 
+		font-size:120%; 
+		text-align: center; 
+		font-weight: bold; 
+		text-transform: uppercase; 
+		color: #0A564C;
+	}
+	#ukurandata{
+		position: relative;
+		font-family: Times New Roman; 
+		font-size:100%; 
+		text-align: center; 
+		font-weight: bold; 
+		color: #0A564C;
+	}
+	.datalain{
+		font-family: Times New Roman; 
+		font-size:100%; 
+		font-weight: bold; 
+		color: #0A564C; 
+		text-transform: capitalize;
+	}
+	#datalain2{
+		font-family: Times New Roman; 
+		font-size:100%; 
+		font-weight: bold; 
+		color: #0A564C; 
+		text-align: center; 
+		text-transform: capitalize;"
+	}
+.deskripsidata{
+	position:relative; 
+	margin-left:4%; 
+	margin-right: 4%; 
+	margin-top: 1%
+}
+	.styledeskripsi{
+		font-family: Times New Roman; 
+		font-size:20px; 
+		font-weight: bold;
+		color: #0A564C;
+	}
+.buttondata{
+	width: 92%;
+	background-color: #0A564C; 
+	color:#fff;
+	margin-left:4%; 
+	margin-right: 4%; 
+	margin-top: 1%;
+	border-radius: 5px;
+}
+	.buttondata:hover{
+		background-color: #fff;
+		color: #0A564C;
+
+	}
+.button1{
+	position: relative;
+	margin-top:5px;
+	width: 20%;
+	border-color: #0A564C;
+	color: #0A564C;
+}
+	.button1:hover{
+		border-color: #ffff;
+		color: #fff;
+		background-color: #0A564C;
+	}
+.butt1{
+	margin-top:5px; 
+	width: 90%; 
+	border-color: #0A564C;
+}
+	.butt1text{
+		font-family: Times New Roman; 
+		font-size:17px; 
+		font-weight: bold; 
+		color: #0A564C;
+	}
+.tab{
+	width:800px;
+	height: auto;
+	position:relative;
+	margin: auto;
+	padding: 100px;
+}
+
+.kolom1 , .kol1{
+	text-align: center;
+	font-family:"Times New Rowman";
+	width:30px;
+}
+	.kolom1{
+		font-weight: bold;
+	}
+
+.kolom2 , .kol2{
+	text-align: center;
+	font-family:"Times New Rowman";
+	width:150px;
+}
+	.kolom2{
+		font-weight: bold;
+	}
+.kolom3 , .kol3{
+	text-align: center;
+	font-family:"Times New Rowman";
+	width:150px;
+}
+	.kolom3{
+		font-weight: bold;
+	}
+.kolom4 , .kol4{
+	text-align: center;
+	font-family:"Times New Rowman";
+	width:200px;
+}
+	.kolom4{
+		font-weight: bold;
+	}
+.kolom5 , .kol5{
+	text-align: center;
+	font-family:"Times New Rowman";
+	width:150px;
+}
+	.kolom5{
+		font-weight: bold;
+	}
+.kolom6 , .kol6{
+	text-align: center;
+	font-family:"Times New Rowman";
+	width:100px;
+}
+	.kolom6{
+		font-weight: bold;
+	}
